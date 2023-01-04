@@ -1,0 +1,15 @@
+Files written and compiled by Daniel Guo and base code for printTriangles.c by Doron Nussbaum. 
+
+These files are to demonstrate the use of recursive functions, the use of pointers, and the ability to code and compile in the C programming Language. 
+
+To compile both hello.c and printTriangles.c, use the folowwing command:
+
+gcc -Wall -o (hello/printTriangles) -std=c99 (hello.c/printTriangles.c)
+
+Where the brackets list the option to compile either hello or printTriangles.
+To launch the compiled code, use the following command:
+
+./(hello/printTriangles)
+
+where the brackets list the names of the compiled file(chosen when compiled).
+
