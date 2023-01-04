@@ -1,0 +1,5 @@
+singleMorph: drAssessment.c patient.h singleSpawn.c
+	gcc -o singleSpawn singleSpawn.c
+drAssessment.o: drAssessment.c patient.h 
+	gcc drAssessment.c
+

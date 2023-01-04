@@ -1,0 +1,5 @@
+singleMorph: drAssessment.c patient.h singleAssessment.c
+	gcc -o singleMorph singleAssessment.c
+drAssessment.o: drAssessment.c patient.h 
+	gcc drAssessment.c
+
